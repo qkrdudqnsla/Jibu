@@ -8,7 +8,7 @@ import java.net.Socket;
 public class ParkingServer {
     public static void main(String[] args) {
         try {
-            // 서버 소켓 생성 및 포트 지정
+            // 서버 소켓 생성 및 포트 지정.
             ServerSocket serverSocket = new ServerSocket(29500);
 
             System.out.println("주차서버가 시작되었습니다. 클라이언트의 연결을 기다립니다.");
